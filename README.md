@@ -1,7 +1,6 @@
 # Pharmapp2.0
 
-## Parar testar a aplicação
-
+### Parar testar a aplicação
 1° Clonar o repositório
 
 2° Ter o node e yarn instalado
@@ -14,5 +13,4 @@
 
 Qualquer dúvida entrar em contato 
 
-viniciusc.d.c@hotmail.com
-vinicius.costa@unidavi.edu.br
+viniciusc.d.c@hotmail.com / vinicius.costa@unidavi.edu.br
