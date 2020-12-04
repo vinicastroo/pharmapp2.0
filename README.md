@@ -1,6 +1,6 @@
-# pharmapp2.0
+# Pharmapp2.0
 
-# Parar testar a aplicação
+## Parar testar a aplicação
 
 1° clonar o repositório
 
