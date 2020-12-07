@@ -1,8 +1,12 @@
 import { Router, Request, Response } from 'express';
 
 import CategoriesRepository from '../repositories/CategoriesRepository';
+import ProductRepository from '../repositories/ProductsRepository';
+import Product from '../models/Product';
 
 const categoriesRepository = new CategoriesRepository();
+
+const productsRepository = new ProductRepository();
 
 const categoriesRouter = Router();
 

@@ -7,12 +7,9 @@ import productsRouter from './products.routes';
 
 const routes = Router();
 
-routes.use('/categories', categoriesRouter);
-
 routes.use('/users', usersRouter);
-
 routes.use('/products', productsRouter);
-
+routes.use('/categories', categoriesRouter);
 routes.use('/pharmacies', pharmaciesRouter);
 
 export default routes;

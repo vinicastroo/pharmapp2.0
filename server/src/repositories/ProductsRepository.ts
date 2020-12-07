@@ -27,8 +27,13 @@ class ProductsRepository {
     return false;
   }
 
-  public create(description: string, value: string, date: Date): Product {
-    const product = new Product(description, value, date);
+  public create(
+    description: string,
+    value: string,
+    date: Date,
+    category_id: string,
+  ): Product {
+    const product = new Product(description, value, date, category_id);
 
     this.products.push(product);
 
@@ -45,12 +50,14 @@ class ProductsRepository {
     value: string,
     date: Date,
     indexId: number,
+    category_id: string,
   ): Product {
     this.products[indexId] = {
       id,
       description,
       value,
       date,
+      category_id,
     };
 
     return this.products[indexId];

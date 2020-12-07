@@ -9,11 +9,19 @@ class Product {
 
   date: Date;
 
-  constructor(description: string, value: string, date: Date) {
+  category_id: string;
+
+  constructor(
+    description: string,
+    value: string,
+    date: Date,
+    category_id: string,
+  ) {
     this.id = uuid();
-    this.value = value;
-    this.description = description;
     this.date = date;
+    this.value = value;
+    this.category_id = category_id;
+    this.description = description;
   }
 }
 
